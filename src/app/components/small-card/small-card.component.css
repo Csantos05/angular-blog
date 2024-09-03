@@ -11,12 +11,13 @@
 .small__card__foto > img{
     width:  200px;
     min-width: 200px;
+    margin: 20px;
    
   
 
 }
 .small__card__description p {
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 10px;
     color: gray;
     font-size: 15px;
