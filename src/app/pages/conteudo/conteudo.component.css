@@ -1,0 +1,647 @@
+/***** Título da Página *****/
+
+.container__menu__title >h1{
+    margin-top: 140px;
+    margin-bottom: 20px;     
+    color:#ff2500;   
+    font-size: 60px; 
+    display: flex;   
+    font-family: 'segoe UI';
+    justify-content: center;
+}
+.titulo-página p b{
+    color: #ff2500;
+    font-size: 50px;
+    margin-left: 40vw;
+    background-color:  rgba(1, 8, 14, .9);
+    border: 3px solid #ff2500; 
+    border-radius: 5px;
+    padding: 5px 60px 5px; 
+    margin-top: -85px;
+    position: absolute; 
+   
+   
+}
+.titulo-página:hover p b{
+    color:#00FFFF;
+    transition: all 0.1s ease;
+}
+/***** Card 1 *****/
+
+.container__conteudo1 {
+    margin-top: 200px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: -450px;
+
+
+}
+.conteudo__foto1 img {
+    width: 550px;
+    height: 380px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+
+}
+
+.conteudo__title1 h1 {
+    color: #ff2500;
+    margin-top: 10px;
+
+}
+.conteudo__title1:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.conteudo__description1{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link {
+    color: #ff2500;
+    cursor: pointer;
+    
+   
+  
+   
+}
+/***** Card 2 *****/
+
+.container__conteudo2 {   
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    margin-top: -910px;
+    margin-left: 850px;
+  
+ 
+}
+.conteudo__foto2 img{
+    width: 550px;
+    height: 380px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+
+}
+
+.conteudo__title2 h1{
+    color:#ff2500;
+    margin-top: 10px; 
+
+
+}
+.conteudo__title2:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.conteudo__description2{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+   
+   
+}
+/***** Card 3 *****/
+
+.container__conteudo3 {   
+    margin-top: 15px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: -450px;
+  
+ 
+}
+.conteudo__foto3 img{
+    width: 550px;
+    height: 380px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+
+}
+
+.conteudo__title3 h1{
+    color: #ff2500;
+    margin-top: 10px; 
+
+
+}
+.conteudo__title3:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.conteudo__description3{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+/***** Card 4 *****/
+
+.container__conteudo4 {   
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    margin-top: -910px;
+    margin-left: 850px;
+  
+ 
+}
+.conteudo__foto4 img{
+    width: 550px;
+    height: 380px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+
+}
+
+.conteudo__title4 h1{
+    color: #ff2500;
+    margin-top: 10px;
+
+
+}
+.conteudo__title4:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.conteudo__description4{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+/***** Card 5 *****/
+.container__conteudo5 {   
+    margin-top: 15px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: -450px;
+    margin-top: 80px;
+  
+ 
+}
+.conteudo__foto5 img{  
+    width: 550px;
+    height: 380px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+
+}
+
+.conteudo__title5 h1{
+    color:#ff2500;
+    margin-top: 10px; 
+
+
+}
+.conteudo__title5:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.conteudo__description5{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+/***** Card 6 *****/
+
+.container__conteudo6 {   
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    margin-top: -800px;
+    margin-left: 850px;
+  
+ 
+}
+.conteudo__foto6 img{
+    width: 550px;
+    height: 380px;
+    margin-top: -70px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+
+}
+
+.conteudo__title6 h1{
+    color:#ff2500;
+    margin-top: 10px;  
+
+
+}
+.conteudo__title6:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.conteudo__description6{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+/***** Card 7 *****/
+
+.container__conteudo7 {   
+    margin-top: 60px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: -450px;
+  
+ 
+}
+.conteudo__foto7 img{
+    width: 550px;
+    height: 380px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+
+}
+
+.conteudo__title7 >h1{
+    color: #ff2500;
+    margin-top: 10px;
+
+
+}
+.conteudo__title7:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.conteudo__description7{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+.conteudo__description8{ 
+    width: 100%;
+    max-width: 555px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;  
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+/***** Card 8 *****/
+
+.container__conteudo8 {   
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    margin-top: -910px;
+    margin-left: 850px;
+  
+ 
+}
+.conteudo__foto8 img{
+    width: 550px;
+    height: 380px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 5px solid #ff2500;
+}
+
+.conteudo__title8 h1{
+    color: #ff2500;
+    margin-top: 10px;
+
+
+}
+.conteudo__title8:hover h1{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+/***** Vídeo *****/
+
+.video__card__video { 
+    width: 100%;
+    max-width: 555px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 35vw;
+
+
+
+}
+
+.video__card__description{ 
+    width: 100%;
+    max-width: 600px;      
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;       
+    background-color: transparent;   
+    backdrop-filter: blur(15px); 
+    border-radius: 5px;
+    margin-left: 33.8vw;
+    padding: 5px;
+      
+     
+}
+.ref {
+    margin-top: 5px;
+
+   
+
+}
+#link{
+    color: #ff2500;
+    cursor: pointer;
+  
+
+    
+    
+}
+
+/****** Botões de Paginação ******/
+
+.paginação {              
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    margin-top: 20%;
+    padding: 20px;
+} 
+
+.link {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 1px #0000005a;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 40px;
+    position: relative;
+    margin-inline: 15px;
+    overflow: hidden;
+}
+.link:hover i {
+    color: #ff2500;
+    transform: scale(1.2);
+
+}
+.link i{
+    transition: .1s;
+}
+
+.link-1 {
+    color: rgb(65, 64, 64);
+}
+
+.link-2 {
+    color: rgb(65, 64, 64);
+}
+
+.link-3 {
+    color: rgb(65, 64, 64);
+}
+
+.link-4 {
+    color: rgb(65, 64, 64);
+}
+.link::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    left: -100%;
+    top: 110%;
+    background-color: black;
+
+
+}
+.link:hover::before {
+    animation: desloca .5s;
+    left: 0;
+    top: 0;
+}
+
+@keyframes desloca {
+    0% {
+        left: -100%;
+        top: 110%;
+    }
+
+    50% {
+        left: 15%;
+        top: -10%;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
+

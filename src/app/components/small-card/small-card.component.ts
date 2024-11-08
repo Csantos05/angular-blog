@@ -7,19 +7,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
   @Input()
-  fotoCover:string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM9iIlngAstzHI4l1VRS-HodjRF7VAAqCW0Fef4ltFdzSzXH1-oNmhmtS4Ztz0gc5xnpw&usqp=CAU"
+  fotoCapa:string = ""
   @Input()
-  cardTitle:string = "Points"
+  cardTitle:string = "" 
   @Input()
-  cardDescription:string = "Texto..."
+  cardDescription:string = ""
   @Input()
   Id:string = "0"
-
+  @Input()
+  videoTitle:string = ""
   
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }

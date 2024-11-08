@@ -1,72 +1,122 @@
-.container__big__card{  
-    width: 400px;
-    height: 600px;
+
+/***** Card *****/
+
+
+.container__big-card{    
+    width:550px;
+    height:380px;
+    margin-top: 25.5px;
+    margin-left: 120px; 
+
+                     
+}
+.big-card__title  h1 b{  
+    color: #ff2500;
+    margin-top: 15px; 
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.big-card__title h1{
+    justify-content: center; 
     margin-top: 10px;
-    font-size: 25px;
+    
+  
+       
 }
-.big-card__description p {
-    margin-top: 10px;
-    color: gray;
-    font-size: 15px;
-}
-.big-card__foto > img{
-    width:  100%;
-    min-width: 400px;
+.big-card__title:hover h1 b{
+    color:#00FFFF;
+    transition: all 0.3s ease-in-out;
 
 }
-
-.container__big__card__2{
-    margin-left: 10px;
-    margin-right: 10px; 
-    margin-top: -190px;
-    width: 400px;
-    height: 600px;
+.big-card__foto img {
+    width:550px;
+    height:380px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color:#ff2500;
+    border-style: groove;   
+    text-align: center;    
+
+  
+    
 }
-.big-card__title h1{
+
+.big-card__description{   
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    text-align: justify;
+    justify-content: center;  
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
     margin-top: 15px;
-    font-size: 25px;
+    padding: 15px;
+  
+    
+       
 }
-.big-card__description p {
+
+#link-ref p{
+    color: #ff2500;
+    cursor: pointer;
     margin-top: 10px;
-    color: gray;
-    font-size: 15px;
-}
-.big-card__foto > img{
-    width:  100%;
-    min-width: 400px;
+    margin-left: -2px;
 
+  
+    
+   
 }
+/***** Vídeo *****/
 
-.container__big__card__3{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: -190px;
-    width: 400px;
-    height: 600px;
+.video__card__video{    
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-}
-.big-card__title h1{
-    margin-top: 15px;
-    font-size: 25px;
-}
-.big-card__description p {
-    margin-top: 10px;
-    color: gray;
-    font-size: 15px;
-}
-.big-card__foto > img{
-    width:  100%;
-    min-width: 400px;
+    align-items: center; 
+    margin-top: 150px;   
+    margin-left: 8.7%;
+    position: relative;
+   
+    
 
 }
+.video-description{ 
+    width:600px;
+    height: 60px;     
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    text-align: justify;
+    justify-content: center;  
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    margin-top: -5px;    
+    border-radius: 5px; 
+    padding: 35px;
+    
+     
+     
+} 
+
+#link-ref p {
+    color: #ff2500;
+    cursor: pointer;
+
+    
+}
+#link p{
+    margin-top: -20px;
+    margin-left: -28px;
+
+}
+
+
+
+
+
+
+
+
 

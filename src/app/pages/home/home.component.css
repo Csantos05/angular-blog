@@ -1,7 +1,321 @@
-.container__articles{
+
+/***** Nome da Página *****/
+
+.titulo-página p{
+    color:#ff2500 ;
+    font-size: 50px;
+    margin-left: 35vw;
+    background-color:  rgba(1, 8, 14, .9);
+    border: 3px solid #ff2500; 
+    border-radius: 5px; 
+    padding: 5px 80px 5px; 
+    margin-top: -90px;
+    position: absolute; 
+   
+   
+}
+.titulo-página:hover p{
+    color:#00FFFF;
+    transition: all 0.1s ease;
+}
+.container__articles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+ 
+
+}
+
+.articles__others h5 {
+    color: #ff2500;
+    text-align: center;
+    margin-top: 290px;
+}
+/***** O Turismo *****/
+
+.container__small-card2 {
+    width: 420px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     margin-top: 30px;
+ 
+
+}
+
+.container__small-card2 {
+    margin-left: 120px;
+
+}
+
+.container__small-card__content2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-   }
+    text-align: center;
+
+}
+
+.small-card__foto2 img {
+    width: 420px;
+    height: 250px;
+    margin: 5px solid;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #ff2500;
+
+}
+
+.small-card__title2 h1 b {
+    color: #ff2500;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.small-card__title2:hover h1 a b {
+    color: #00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.small-card__description2{ 
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    text-align: justify;   
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;    
+    padding: 1px;
+    
+     
+     
+}
+.ref{
+    margin-top: 15px;
+
+}
+#link p{
+    color: #ff2500;
+    cursor: pointer;
+}
+.text p{
+    margin-top: 20px;
+}
+/***** Atrativos *****/
+
+.container__small-card3 {
+    margin-left: -540px;
+    margin-top: 100px;
+
+}
+
+.small-card__foto3 img {
+    width: 420px;
+    height: 250px;
+    margin: 5px solid;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #ff2500;
+    margin-top: 120px;
+
+
+}
+
+.small-card__title3 h1 b {
+    color: #ff2500;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 150px;
+
+}
+
+.small-card__title3:hover h1 a b {
+    color: #00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.small-card__description3{ 
+    width: 420px;
+    height: 265px;
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    text-align: justify;
+    justify-content: center;  
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    margin-top: 15px;    
+    padding: 5px;
+    
+     
+     
+}
+.ref {
+    margin-top: 5px;
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+   
+}
+/***** Como Chegar? *****/
+
+.container__small-card4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -480px;
+    margin-left: 550px;
+
+
+}
+
+.small-card__foto4>img {
+    width: 420px;
+    height: 250px;
+    margin: 5px solid;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #ff2500;
+    margin-top: -105px;
+
+}
+
+.small-card__title4 h1 b {
+    color: #ff2500;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.small-card__title4:hover h1 a b {
+    color: #00FFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+.small-card__description4{    
+    color:  rgb(65, 64, 64);  
+    font-size: 18px;           
+    font-style: oblique;   
+    display: flex;
+    text-align: justify;
+    justify-content: center;  
+    background-color: transparent;   
+    backdrop-filter: blur(15px);
+    border-radius: 5px;   
+    padding: 15px;
+    
+     
+     
+}
+.ref {
+    margin-top: 10px;
+
+   
+
+}
+#link p {
+    color: #ff2500;
+    cursor: pointer;
+   
+}
+
+/****** Botões de Paginação ******/
+
+.paginação {              
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -64vw;
+    margin-top: 25%;
+    padding: 20px;
+} 
+
+.link {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 1px #0000005a;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 40px;
+    position: relative;
+    margin-inline: 15px;
+    overflow: hidden;
+}
+.link:hover i {
+    color: #ff2500;
+    transform: scale(1.2);
+
+}
+.link i{
+    transition: .1s;
+}
+
+.link-1 {
+    color: rgb(65, 64, 64);
+}
+
+.link-2 {
+    color: rgb(65, 64, 64);
+}
+
+.link-3 {
+    color: rgb(65, 64, 64);
+}
+
+.link-4 {
+    color: rgb(65, 64, 64);
+}
+.link::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    left: -100%;
+    top: 110%;
+    background-color: black;
+
+
+}
+.link:hover::before {
+    animation: desloca .5s;
+    left: 0;
+    top: 0;
+}
+
+@keyframes desloca {
+    0% {
+        left: -100%;
+        top: 110%;
+    }
+
+    50% {
+        left: 15%;
+        top: -10%;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
 

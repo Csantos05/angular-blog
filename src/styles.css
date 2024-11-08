@@ -1,13 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+* {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #111111;
-    color: white;
+    padding: 0; 
+    background: none;
+    box-sizing: border-box; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+  
 }
-a{
+
+body {  
+    background: url('https://abihrj.com.br/wp-content/uploads/2023/09/shutterstock_1902282097-jpg.webp');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+    
+  }  
+
+
+
+a {
     text-decoration: none;
+    /* list-style-type: none; */
+    
+
 }
+
+

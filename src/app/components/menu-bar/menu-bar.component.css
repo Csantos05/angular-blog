@@ -1,11 +1,205 @@
-.container__menu__brar{
-    margin-top: 15px;
-  }
-.container__menu__brar > ul{
+
+.logo {
+    color: #ff2500;
+    margin-right: 640px;
+    font-size: 40px;
+
+
+}
+
+.logo:hover {
+    color: #00FFFF;
+    transition: all 0.3s ease;
+
+}
+
+nav { 
+    top: 0;
+    left: -45px;    
+    width: 100%;
+    height: 100px;
+    padding: 70px;
     display: flex;
-    flex-direction: row;
+    align-items: center;  
+    margin-inline: 40px;
+    box-sizing: border-box;
+    background-color: rgba(1, 8, 14, .9);
+    border-top: 4px solid #ff2500;
+    position: fixed;
+  
+
+
+
 }
-.container__menu__brar > ul >li{
-   margin-right: 20px;
-   list-style: none;
+
+nav a {
+    color: #ff2500;
+    position: relative;
+ 
+ 
 }
+
+nav a:hover {
+    color: #00FFFF;
+    transition: all 0.3s ease;
+}
+
+
+nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(#ff2500, #ff2500);
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    transition: width 0.5s;
+}
+
+nav a:hover::after {
+    width: 60px;
+
+
+
+}
+
+nav ul {
+    list-style: none;  
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+}
+
+nav ul li a {
+    top: 30px;   
+    padding: 30px 10px;   
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: transparent;
+     
+
+
+}
+
+nav ul li i {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+   
+    
+
+
+}
+
+nav .icon-1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    position: absolute;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: larger;
+    
+
+}
+
+nav .icon-2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    position: absolute;
+    padding: 10px 145px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+nav .icon-3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    position: absolute;
+    padding: 10px 290px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+nav .icon-4 {
+    color: white;
+    display: flex;
+    justify-content: center;    
+    position: absolute;
+    padding: 10px 390px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+nav .icon-5 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    position: absolute;
+    padding: 10px 505px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+nav .icon-6 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    position: absolute;
+    padding: 10px 645px;
+    cursor: pointer;
+    font-size: larger;
+
+
+}
+
+.icon-1:hover i{  
+    transform: scale(1.2)
+    
+}
+.icon-2:hover i{  
+    transform: scale(1.2)
+}
+.icon-3:hover i{  
+    transform: scale(1.2)
+}
+.icon-4:hover i{  
+    transform: scale(1.2)
+}
+.icon-5:hover i{  
+    transform: scale(1.2)
+}
+.icon-6:hover i{  
+    transform: scale(1.2)
+}
+nav ul li i:hover{
+    color:#ff2500;
+    transition: all 0.1s ease;
+}
+
+/* @keyframes animation-float {
+    100% {
+        transform: translateY(-8px)
+    }
+} */
+
+
+
+

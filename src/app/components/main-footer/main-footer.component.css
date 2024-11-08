@@ -1,0 +1,123 @@
+
+/****** Footer ******/
+main{
+    width: 100%;  
+    left: 0;    
+    margin-top: 2%;  
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 0px; 
+ 
+    
+   
+    
+}
+footer{  
+    border-block: 4px solid #ff2500;  
+    background-color: rgba(1, 8, 14, .9);
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+    padding: 50px 835.5px 30px;
+    
+   
+   
+ 
+   
+}#footer_soial_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 10px;
+}
+
+#footer_soial_media .footer-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;  
+    border-radius: 50%;
+    font-size: 40px;      
+    border: 2px solid white;
+    margin-top: -10px; 
+
+    
+     
+
+}
+#github{  
+   background-color: black;
+
+  
+
+}
+#linkedin{  
+    background-color: #0077B5;
+  
+
+}
+#instagram{  
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+ 
+  
+}
+.copyright li{
+    margin-top:30px;  
+    list-style-type: none;
+    display: inline;
+    
+     
+
+}
+.copyright p{
+    color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-inline: -80px;
+    
+  
+}
+.copyright p:hover{
+    color: #00FFFF;   
+    transition:  all 0.3s ease;
+}
+.line{
+    background: linear-gradient(#ff2500, #ff2500);      
+    width: 60px;
+    height: 6px;
+    margin-top: 2px;
+    border-radius: 40px;
+    position: relative;
+    animation: underline-animation 2.8s infinite;
+
+}
+@keyframes underline-animation{
+    0%{
+        left: -100px;
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        left: 240px;
+        opacity: 0;
+    }
+}
+                 
+
+
+
+
+
+
+
+
+
+
+
